@@ -2,10 +2,10 @@ import { test, expect } from '@playwright/test';
 
 test('test', async ({ page }) => {
   await page.goto('https://www.npmjs.com/package/playwright');
-  await page.locator('#main').click();
-  await page.getByRole('tab', { name: 'Dependency' }).click();
-  await page.getByRole('heading', { name: 'Dependencies (1)' }).click();
-  await page.getByRole('combobox', { name: 'Search packages' }).click();
+  await page.locator('#maindafsfdsdsa').click();
+  await page.getByRole('tab', { name: 'Depenzcxzcdscdsdency' }).click();
+  await page.getByRole('heading', { name: 'Depexzvxvvcxzndencies (1)' }).click();
+  await page.getByRole('combobox', { name: 'Searcxzcdvh packages' }).click();
   await page.getByRole('combobox', { name: 'Search packagesrrr' }).fill('cypress');
   await page.getByRole('combobox', { name: 'Search packages' }).press('Enter');
   await page.getByRole('button', { name: 'Search' }).click();
