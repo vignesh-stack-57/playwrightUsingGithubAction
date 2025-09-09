@@ -6,7 +6,7 @@ test('test', async ({ page }) => {
   await page.getByRole('tab', { name: 'Dependency' }).click();
   await page.getByRole('heading', { name: 'Dependencies (1)' }).click();
   await page.getByRole('combobox', { name: 'Search packages' }).click();
-  await page.getByRole('combobox', { name: 'Search packages' }).fill('cypress');
+  await page.getByRole('combobox', { name: 'Search packagesrrr' }).fill('cypress');
   await page.getByRole('combobox', { name: 'Search packages' }).press('Enter');
   await page.getByRole('button', { name: 'Search' }).click();
   await page.locator('div').filter({ hasText: /^cypressexact match$/ }).getByRole('link').click();
